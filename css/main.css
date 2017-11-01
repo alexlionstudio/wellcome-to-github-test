@@ -2,9 +2,66 @@ body, html{
 	margin: 0px;
 	padding: 0px;
 }
+/* ---------- Menu ---------- */
+.menu{
+	min-width: 1200px;
+	height: 100px;
+	background: #254475;
+	text-align: center;
+}
+.menu ul{
+	margin: 0px;
+	list-style-type: none;
+	display: inline-block;
+}
+.menu ul li{
+	position: relative;
+	padding: 42px 0px;
+	display: inline-block;
+}
+.menu ul li a{
+	padding: 36px 40px;
+	font-family: roboto;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 16px;
+}
+.menu ul li a:hover {
+	background: #326398;
+}
+ul.sub_menu{
+	display: none;
+	width: auto;
+	margin: 38px 0px 0px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+    background: #254475;
+}
+ul.sub_menu li{
+	padding: 20px 40px 20px 0px;
+	background: #254475;
+	text-align: left;
+	display: list-item; 
+
+}
+ul.sub_menu li a{
+	padding: 15px 40px 20px 40px;
+	line-height: 16px;
+} 
+ul.sub_menu li:hover{
+	background: #326398;
+}
+.menu>ul>li:hover .sub_menu{
+	display: block;
+}
+/* ---------- Slider ---------- */
 .slider{
 	background-image: url("../img/slider.jpg");
 	height: 1000px;
+	min-width: 1200px;
 	background-position: center;
 	margin-bottom: 100px;
 }
