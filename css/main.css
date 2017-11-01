@@ -33,6 +33,13 @@ body, html{
 .art-block{
 	margin-bottom: 100px;
 }
+.art-block p{
+	font-family: ubuntu;
+	font-size: 18px;
+	text-align: left;
+	margin: 0px 0px 30px;
+	color: #000000;
+}
 h2{
 	font-family: ubuntu;
 	font-weight: 200;
