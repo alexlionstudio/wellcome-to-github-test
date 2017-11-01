@@ -1,0 +1,44 @@
+body, html{
+	margin: 0px;
+	padding: 0px;
+}
+.slider{
+	background-image: url("../img/slider.jpg");
+	height: 1000px;
+	background-position: center;
+	margin-bottom: 100px;
+}
+.content{
+	width: 1200px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+.slider h1{
+	line-height: 74px;
+	font-size: 100px;
+	text-transform: uppercase;
+	padding: 312px 0px 20px;
+}
+.slider p{
+	font-size: 53px;
+}
+.slider h1, p{
+	width: 525px;
+	margin: 0px;
+	font-family: roboto;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+}
+.art-block{
+	margin-bottom: 100px;
+}
+h2{
+	font-family: ubuntu;
+	font-weight: 200;
+	line-height: 32px;
+	margin: 0px;
+	margin-bottom: 30px;
+	font-size: 40px;
+	color: #000000;
+}
